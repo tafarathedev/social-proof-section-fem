@@ -71,7 +71,6 @@ body {
   border-radius: 5px;
   width: 330px;
   height: 230px;
-  justify-content: start;
   text-align: start;
   align-items: start;
   justify-content: end;
@@ -84,6 +83,11 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 50%;
+}
+
+.ratings > div, .ratings > div > p {
+  text-align: align;
+  padding-left: 0;
 }
 
 .cards > div > div > p {
@@ -156,5 +160,11 @@ body {
 
   .role {
     margin: 0;
+  }
+
+  .ratings > div {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }/*# sourceMappingURL=main.css.map */
