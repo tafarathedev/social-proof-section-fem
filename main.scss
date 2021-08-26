@@ -1,0 +1,149 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  html{
+    font-family: 'Spartan', sans-serif;
+    scroll-behavior: smooth;
+  }
+  h1,h2,h3,h4,h5,h5{
+      color: hsl(300, 43%, 22%);
+      font-family: 'Spartan', sans-serif;font-weight: 700;
+  }
+  p{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+  }
+  body{
+      font-size:15px;
+      font-weight: 700;
+      height: 100vh;
+      padding:0  10px;
+      background-image: url('./images/bg-pattern-top-desktop.svg');
+      background-image: url('./images/bg-pattern-bottom-desktop.svg');
+      background-repeat: no-repeat;
+      background-position:cover;
+      background-size: contain;
+      width: 100vw;
+      font-family: 'Spartan', sans-serif;
+  }
+  .fas{
+      color: red;
+  }
+ 
+  .role{
+ 
+   background-color:  hsl(300, 24%, 96%);
+    padding: 1rem;
+    display: relative;
+    border-radius: 10px;
+  }
+  
+  .cards {
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    margin-top: 5rem;
+     
+  }
+ 
+  .cards > div {
+    background-color: hsl(300, 43%, 22%);
+     margin-right:3rem;
+     margin-left:0rem;
+     margin-bottom: 1rem;
+    border-radius: 10px;
+   width: 320px;
+   height: 250px;
+   
+  }
+  .cards > div >div >img{
+      width: 50px;
+     height: 60px;
+      height: fit-content;
+      border-radius: 50%;
+     
+  }
+  .cards>div>div>p{
+      padding: 10px;
+      line-height: 1.4rem;
+      font-weight: 200;
+      opacity: .8;
+  }
+  .image-text{
+   display: flex;
+    
+  }
+
+  .descript > h1 , .descript >p{
+    padding-top: 3px;
+    margin-top: 3px;
+    font-size:13px;
+    padding-left: 1rem;
+  }
+  .rates-div1{
+   left: 0%;
+  }
+  .rates-div2{
+  left: 5%;
+  }
+  .rates-div3{
+   left: 10%;
+  }
+ 
+ .descript >p{
+     color: hsl(333, 80%, 67%);
+ }
+ .descript > div >p {
+     color:hsl(0, 0%, 100%);
+ }
+ 
+
+
+ 
+ 
+
+
+@media screen and (max-width:760px) {
+    .rates-div1,.rates-div2,.rates-div3{
+        left: 0%;
+    }
+    body{
+        background-image: url('./images/bg-pattern-top-mobile.svg');
+        background-image: url('./images/bg-pattern-bottom-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: contain;
+    }
+     .cards{
+     margin: auto;
+     margin-top: 2rem;
+     }
+
+     .cards-sec{
+       /*   padding: 0; */
+         margin: 0;
+         padding-top: 0rem;
+     }
+
+     .cards{
+         margin-top: 3rem;
+         margin-left:3rem;
+     }
+     
+     .role{
+         margin: 0;
+        
+     }
+
+}
