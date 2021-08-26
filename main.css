@@ -68,13 +68,17 @@ body {
   margin-right: 3rem;
   margin-left: 0rem;
   margin-bottom: 1rem;
-  border-radius: 10px;
-  width: 320px;
-  height: 250px;
+  border-radius: 5px;
+  width: 330px;
+  height: 230px;
+  justify-content: start;
+  text-align: start;
+  align-items: start;
+  justify-content: end;
 }
 
 .cards > div > div > img {
-  width: 50px;
+  width: 40px;
   height: 60px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -95,9 +99,10 @@ body {
 
 .descript > h1, .descript > p {
   padding-top: 3px;
+  padding-left: 20px;
   margin-top: 3px;
   font-size: 13px;
-  padding-left: 1rem;
+  justify-content: start;
 }
 
 .rates-div1 {
